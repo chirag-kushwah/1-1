@@ -1,0 +1,42 @@
+<%- include('./header.ejs') %>
+<section class="cmspage mtb-40" style="background-color:rgb(159, 237, 237) ; margin-top: 80px;">
+    <div class="container " style="background-color:rgb(84, 70, 70) ; ">
+      <div class="page-desc">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h1 style="color: azure;">Contact</h1>
+            <form action="/insertcontact" method="post">
+              <div class="form-group" >
+                <input type="text" name="name" class="form-control" placeholder="Name" style="background-color:rgb(227, 218, 218) ;">
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="text" name="email" class="form-control" placeholder="E-Mail" style="background-color:rgb(227, 218, 218) ;">
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="text" name="phone" class="form-control" placeholder="Phone" style="background-color:rgb(227, 218, 218) ;">
+              </div>
+              <br>
+              <div class="form-group">
+                <textarea name="message" rows="5" class="form-control" placeholder="Message" style="background-color:rgb(227, 218, 218) ;"></textarea>
+              </div>
+              <br>
+              <div class="form-group">
+                <button class="btn btn-success">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<%- include('./footer.ejs') %>
+
+
+
+
+
+
+
+
